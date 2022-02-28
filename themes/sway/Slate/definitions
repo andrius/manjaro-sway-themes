@@ -1,0 +1,65 @@
+################################################################################
+#
+# Sway theme:
+# Slate
+#
+# Converted using https://github.com/andrius/manjaro-sway-themes
+# Author: twitter.com/@andrius_kai
+#
+#
+# Installation instructions:
+# (optional step) - copy theme to the ~/.config/sway folder:
+# ```shell
+# mkdir -p ~/.config/sway/themes
+# cp -R "./themes/sway/THEME NAME" ~/.config/sway/themes
+# ```
+#
+# Edit ~/.config/sway/config file and speciy theme:
+# ```conf
+# set $theme $HOME/.config/sway/themes/THEME\ NAME
+# ```
+#
+################################################################################
+
+# some global theme specific variables
+set $gtk-theme Matcha-dark-sea
+set $icon-theme Papirus-Dark-Maia
+set $cursor-theme xcursor-breeze
+set $gui-font Roboto 11
+set $term-font PragmataPro Mono 11
+set $kvantum-theme Matcha-Dark
+
+set $color0  #222222
+set $color1  #e2a8bf
+set $color2  #81d778
+set $color3  #c4c9c0
+set $color4  #264b49
+set $color5  #a481d3
+set $color6  #15ab9c
+set $color7  #02c5e0
+set $color8  #ffffff
+set $color9  #ffcdd9
+set $color10 #beffa8
+set $color11 #d0ccca
+set $color12 #7ab0d2
+set $color13 #c5a7d9
+set $color14 #8cdfe0
+set $color15 #e0e0e0
+
+# set $background-color $color0
+set $background-color #222222
+# set $text-color $color6
+set $text-color #35b1d2
+# set $selection-color $color1
+set $selection-color #0f3754
+# set $accent-color $color12
+set $accent-color #2dffc0
+
+# Basic color configuration using the Base16 variables for windows and borders.
+# Property Name         Border  BG      Text    Indicator Child Border
+client.focused          $color5 $color12 $color0 $color12 $color12
+client.focused_inactive $color1 $color1 $color5 $color3 $color1
+client.unfocused        $color1 $color0 $color5 $color1 $color1
+client.urgent           $color8 $color8 $color0 $color8 $color8
+client.placeholder      $color0 $color0 $color5 $color0 $color0
+client.background       $color7

@@ -1,0 +1,65 @@
+################################################################################
+#
+# Sway theme:
+# Overnight Slumber
+#
+# Converted using https://github.com/andrius/manjaro-sway-themes
+# Author: twitter.com/@andrius_kai
+#
+#
+# Installation instructions:
+# (optional step) - copy theme to the ~/.config/sway folder:
+# ```shell
+# mkdir -p ~/.config/sway/themes
+# cp -R "./themes/sway/THEME NAME" ~/.config/sway/themes
+# ```
+#
+# Edit ~/.config/sway/config file and speciy theme:
+# ```conf
+# set $theme $HOME/.config/sway/themes/THEME\ NAME
+# ```
+#
+################################################################################
+
+# some global theme specific variables
+set $gtk-theme Matcha-dark-sea
+set $icon-theme Papirus-Dark-Maia
+set $cursor-theme xcursor-breeze
+set $gui-font Roboto 11
+set $term-font PragmataPro Mono 11
+set $kvantum-theme Matcha-Dark
+
+set $color0  #0a1222
+set $color1  #ffa7c4
+set $color2  #85cc95
+set $color3  #ffcb8b
+set $color4  #8dabe1
+set $color5  #c792eb
+set $color6  #78ccf0
+set $color7  #ffffff
+set $color8  #575656
+set $color9  #ffa7c4
+set $color10 #85cc95
+set $color11 #ffcb8b
+set $color12 #8dabe1
+set $color13 #c792eb
+set $color14 #ffa7c4
+set $color15 #ffffff
+
+# set $background-color $color0
+set $background-color #0e1729
+# set $text-color $color6
+set $text-color #ced2d6
+# set $selection-color $color1
+set $selection-color #1f2b41
+# set $accent-color $color12
+set $accent-color #ced2d6
+
+# Basic color configuration using the Base16 variables for windows and borders.
+# Property Name         Border  BG      Text    Indicator Child Border
+client.focused          $color5 $color12 $color0 $color12 $color12
+client.focused_inactive $color1 $color1 $color5 $color3 $color1
+client.unfocused        $color1 $color0 $color5 $color1 $color1
+client.urgent           $color8 $color8 $color0 $color8 $color8
+client.placeholder      $color0 $color0 $color5 $color0 $color0
+client.background       $color7
