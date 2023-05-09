@@ -10,7 +10,7 @@ Copy your theme to the sway themes folder:
 
 ```shell
 mkdir -p ~/.config/sway/themes
-cp -R "./themes/foot/THEME NAME" >> ~/.config/sway/themes
+cp -R "./themes/sway/THEME NAME" >> ~/.config/sway/themes
 ```
 
 Edit `definitions` file in theme folder and tweak theme variables (fonts and GTK, icon and cursor themes).
